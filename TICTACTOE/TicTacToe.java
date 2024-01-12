@@ -120,9 +120,9 @@ public class TicTacToe implements ActionListener{
              (buttons[7].getText()=="X")){
             xWins(1,4,7);
         }
-        if ( (buttons[2].getText()=="O") &&
-             (buttons[5].getText()=="O") &&
-             (buttons[8].getText()=="O")){
+        if ( (buttons[2].getText()=="X") &&
+             (buttons[5].getText()=="X") &&
+             (buttons[8].getText()=="X")){
             xWins(2,5,8);
         }
         if ( (buttons[0].getText()=="X") &&
